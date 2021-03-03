@@ -110,16 +110,7 @@ function updateBNB_per_hour() {
 	bnbperhrdoc.textContent = roundLikePHP(bnb_per_hr, 6) + " BNB/hr";
   });
 
-
-
-
-
-
-
-
 }
-
-
 
 function updateSellForText() {
   var sellsforexampledoc = document.getElementById('sellsforexample');
@@ -134,7 +125,6 @@ function updateSellForText() {
 
 }
 
-
 function roundLikePHP(num, dec){
   var num_sign = num >= 0 ? 1 : -1;
   return parseFloat((Math.round((num * Math.pow(10, dec)) + (num_sign * 0.0001)) / Math.pow(10, dec)).toFixed(dec));
@@ -146,7 +136,6 @@ function updateTotalInContract() {
   var bnb_in_contract = _balance;
   totalincontractdoc.textContent = "CONTRACT BALANCE: " + roundLikePHP(bnb_in_contract/1e18, 2) + " BNB ";
 }
-
 
 function updateEggNumber(eggs) {
   var allnumeggs = document.getElementsByClassName('numeggs');
