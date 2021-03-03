@@ -411,5 +411,5 @@ function enableButtons() {
 
 function setRef() {
   console.log("set ref called");
-  document.getElementById("playerreflink").innerHTML = 'http://starcraft.Finance/?ref=' + this.userAddress;
+  document.getElementById("playerreflink").innerHTML = 'http://starcraftmining.online/?ref=' + this.userAddress;
 }
